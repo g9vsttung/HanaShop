@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2021, 3:39:22 PM
+    Author     : USER
+*/
+
+body {
+  background:  #FFCAF2;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body.open {
+  overflow-y: hidden;
+}
+
+.shop {
+  position: relative;
+  z-index: 5;
+}
+.btnheader{
+    border-radius: 8px;
+    background-color: #72FFCC;
+    font-size: 18px;
+    font-weight: bold;  
+}
+.btnheader:hover{
+    background-color: white;
+}
+.shop__header {
+  box-sizing: border-box;
+  position: fixed;
+  background: rgba(255, 0, 116, 0.9); 
+  width: 100%;
+  padding: 8px 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  
+}
+
+.shop__products {
+  padding-top: 140px;
+  
+}
+
+.shop__title {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  float: left;
+  font-size: 40px;
+  color: white;
+
+}
+.title{
+    margin: 0px 15px 15px 0px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+.shop__text {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.shop__text .button {
+  padding: 10px 15px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 20px 20px;
+}
+
+.products__item {
+  width: 290px;
+}
+
+.product {
+  background: #FFF;
+  padding: 15px 15px;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+    
+.product__title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 7px 0;
+}
+
+.product__text {
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  background: #39C;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.button--light {
+  background: #FFF;
+  color: #F00;
+}
+.welcome{
+    color: greenyellow  ;
+    margin: 5px 0px 0px 0px;
+}
+
+.shop__text{
+    color: greenyellow;
+    
+}
+p{
+    margin: 10px 0px;
+    font-size: 25px;
+    color: red;
+}
+.info{
+    text-align: left;
+    padding: 0 15px;
+}
+.price{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+p.des{
+    font-size: 18px;
+    white-space: nowrap; 
+    width: 95%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: green;
+}
+p.des:hover{
+    overflow: visible;
+}
+.pageForm{
+    text-align: center;
+}
+
+
+
+
